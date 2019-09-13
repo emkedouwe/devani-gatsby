@@ -1,0 +1,61 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "gatsby": "^2.14.4",
+    "gatsby-background-image": "^0.2.74",
+    "gatsby-image": "^2.2.14",
+    "gatsby-plugin-google-analytics": "^2.1.12",
+    "gatsby-plugin-htaccess": "^1.2.1",
+    "gatsby-plugin-layout": "^1.1.5",
+    "gatsby-plugin-manifest": "^2.2.9",
+    "gatsby-plugin-netlify-cms": "^4.1.14",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.1.5",
+    "gatsby-plugin-react-svg": "^2.1.2",
+    "gatsby-plugin-sass": "^2.1.12",
+    "gatsby-plugin-sharp": "^2.2.18",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "gatsby-source-filesystem": "^2.1.18",
+    "gatsby-source-wordpress": "^3.1.25",
+    "gatsby-transformer-sharp": "^2.2.12",
+    "netlify-cms": "^2.9.7",
+    "node-sass": "^4.12.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-burger-menu": "^2.6.11",
+    "react-device-detect": "^1.7.5",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-slick": "^0.23.2",
+    "react-transition-group": "^2.9.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.10.2",
+    "bootstrap-scss": "^4.3.1",
+    "prettier": "^1.18.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

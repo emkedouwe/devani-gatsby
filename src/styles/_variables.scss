@@ -1,0 +1,106 @@
+/* == FONTS == */
+
+    /* Headings */
+    $fnt-headings: 				'acumin-pro', sans-serif;
+
+    /* Menu */
+    $fnt-menu: 					'acumin-pro', sans-serif;
+
+    /* Default Text */
+    $fnt-default-text: 			'mencken-std', sans-serif;
+	
+	$font-family-sans-serif: 	$fnt-default-text;
+	
+
+	/* H1 */
+	$h1-font-size: 				2.875rem;
+
+	/* H2 */	
+	$h2-font-size: 				3.125rem;
+
+	/* H3 */	
+	$h3-font-size: 				1.475rem;
+
+	/* H4 */	
+	$h4-font-size: 				1.625rem;
+
+	/* Lead font-size */
+	$lead-font-size:			1.875rem;
+	
+	/* Heading weight */
+	$headings-font-weight:		800;
+
+	/* Display */
+	$display4-size:				3.5rem;
+	$display4-weight:			700;
+
+	/* Font Size Base */
+	$font-size-base:			1.125rem;
+
+/* == COLORS == */
+
+	
+	$clr-green:					#00FF42;
+	$white:						#FFFFFF;
+
+	$primary: 					$clr-green;
+
+	
+	// bg-light
+	$gray-100:					#F5F5F5;
+
+	// text-muted
+	$gray-600:					#666666;
+	$gray-800:					#1A1A1A;
+	
+	$body-bg:					$gray-100;
+	$body-color:				$gray-800;
+
+
+	$yiq-contrasted-threshold:  180 !default;
+
+/* == BREAKPOINTS FROM BOOTSTRAP == */
+	
+	$grid-breakpoints: (
+  		xs: 0,
+  		sm: 576px,
+  		md: 768px,
+  		lg: 992px,
+  		xl: 1200px
+	);
+
+
+/* == BOOTSTRAP THEMING == */
+
+$line-height-base:				1.6;
+$spacer:						1.5625rem;
+$spacers: (
+  (
+    6: ($spacer * 4),
+    7: ($spacer * 5)
+  )
+);
+$blockquote-font-size:			1.625rem;
+$blockquote-small-color:		$white;
+
+/* Buttons */
+$input-btn-padding-y:			0.8rem;
+$input-btn-padding-x:			1.25rem;
+$btn-font-weight:				600;
+
+$border-radius:               	0rem;
+$border-radius-lg:            	0rem;
+$border-radius-sm:            	0rem;
+
+/* Menu */
+$navbar-dark-color:				$gray-600;
+$navbar-dark-active-color:		$gray-600;
+$nav-link-padding-x:			2rem;
+$navbar-nav-link-padding-x:		1.5rem;
+//$navbar-nav-link-padding-x:		1rem;
+
+/* Card */
+$card-border-width:				0;
+$card-bg:						$gray-800;
+$card-border-width:				1px;
+$card-border-color:				$white;

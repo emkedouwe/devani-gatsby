@@ -20,7 +20,7 @@
     "gatsby-plugin-sharp": "^2.2.18",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.1.18",
-    "gatsby-source-wordpress": "^3.1.25",
+    "gatsby-source-wordpress": "^4.0.8",
     "gatsby-transformer-sharp": "^2.2.12",
     "netlify-cms": "^2.9.7",
     "netlify-cms-app": "^2.9.7",
